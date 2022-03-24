@@ -14,7 +14,7 @@ const index = () => {
       </Head>  
       <Header />
       <div className="container">
-      <p className="btn btn-primary">Test P tag</p>
+      <p className="btn btn-primary">Testing P tag</p>
       </div>
     </>
   )
