@@ -81,9 +81,9 @@ const testlist = () => {
                 <textarea class="form-control" id="descriptionField" aria-label="With textarea"></textarea>
               </div>
 
-              <div class="mb-3">
+              <div className="mb-3">
                 <label for="uploadField">Upload Property Images: </label>
-                <input type="file" class="form-control" id="uploadField" multiple/>
+                <input type="file" className="form-control" id="uploadField" multiple />
               </div>
 
               <div className="mb-3">
