@@ -83,7 +83,7 @@ const testlist = () => {
 
               <div className="mb-3">
                 <label for="uploadField">Upload Property Images: </label>
-                <input type="file" className="form-control" id="uploadField" multiple />
+                <input type="file" className="form-control" id="uploadField" />
               </div>
 
               <div className="mb-3">
