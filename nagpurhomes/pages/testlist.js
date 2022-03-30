@@ -10,13 +10,13 @@ const testlist = () => {
             
             <form>
               <div className="mb-3">
-                <label for="adTitle" NameName="form-label">Ad Title</label>
+                <label htmlFor="adTitle" NameName="form-label">Ad Title</label>
                 <input type="text" className="form-control" id="adTitle" aria-describedby="titleHelp" required/>
                 <div id="titleHelp" className="form-text">Example: 2bhk apartment for sale at Civil Lines, Nagpur.</div>
               </div>
 
               <div className="mb-3">
-                <label for="adLocation" className="form-label">Location</label>
+                <label htmlFor="adLocation" className="form-label">Location</label>
                 <input type="text" className="form-control" id="adLocation" placeholder="e.g.: Civil Lines"/>   
               </div>
 
@@ -46,22 +46,22 @@ const testlist = () => {
               </div>
 
               <div className="mb-3">
-                <label for="bathrooms" className="form-label">Area</label>
+                <label htmlFor="bathrooms" className="form-label">Area</label>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="areaField" id="flexRadioDefault1" checked/>
-                  <label class="form-check-label" for="flexRadioDefault1">
+                  <label class="form-check-label" htmlFor="flexRadioDefault1">
                     Area
                   </label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="areaField" id="flexRadioDefault2"/>
-                  <label class="form-check-label" for="flexRadioDefault2">
+                  <label class="form-check-label" htmlFor="flexRadioDefault2">
                   Built-up Area
                   </label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="areaField" id="flexRadioDefault2"/>
-                  <label class="form-check-label" for="flexRadioDefault2">
+                  <label class="form-check-label" htmlFor="flexRadioDefault2">
                   Super Built-up Area
                   </label>
                 </div>
@@ -72,32 +72,32 @@ const testlist = () => {
               </div>
 
               <div className="mb-3">
-              <label for="amountText" NameName="form-label">Expected Price/ Rent per month:</label>
+              <label htmlFor="amountText" NameName="form-label">Expected Price/ Rent per month:</label>
                 <input type="number" className="form-control" id="amountText" placeholder="E.g.: 500000, 15000"/>
               </div>
 
               <div className="mb-3">
-                <label for="descriptionField" NameName="form-label">Describe the features that make your property unique:</label>
+                <label htmlFor="descriptionField" NameName="form-label">Describe the features that make your property unique:</label>
                 <textarea class="form-control" id="descriptionField" aria-label="With textarea"></textarea>
               </div>
 
               <div className="mb-3">
-                <label for="uploadField">Upload Property Images: </label>
+                <label htmlFor="uploadField">Upload Property Images: </label>
                 <input type="file" className="form-control" id="uploadField" multiple />
               </div>
 
               <div className="mb-3">
-                <label for="nameField" NameName="form-label">Name:</label>
+                <label htmlFor="nameField" NameName="form-label">Name:</label>
                 <input type="text" className="form-control" id="nameField"/>
               </div>
 
               <div className="mb-3">
-                <label for="emailField" NameName="form-label">Email Address:</label>
+                <label htmlFor="emailField" NameName="form-label">Email Address:</label>
                 <input type="email" className="form-control" id="emailField"/>
               </div>
 
               <div className="mb-3">
-                <label for="phoneField" NameName="form-label">Phone:</label>
+                <label htmlFor="phoneField" NameName="form-label">Phone:</label>
                 <input type="text" className="form-control" id="phoneField"/>
               </div>
 
@@ -105,7 +105,7 @@ const testlist = () => {
 
               <div className="mb-3 form-check">
                 <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-                <label className="form-check-label" for="exampleCheck1">Check me out</label>
+                <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
               </div>
               <button type="submit" className="btn btn-primary">Submit</button>
             </form>
