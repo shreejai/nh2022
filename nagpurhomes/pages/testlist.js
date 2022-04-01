@@ -8,7 +8,7 @@ const testlist = () => {
             <br></br>
             <h1 className="text-center">List your Property on Nagpur Homes: </h1> 
             
-            <form>
+            <form action="api/testform" method="post">
               <div className="mb-3">
                 <label htmlFor="adTitle" NameName="form-label">Ad Title</label>
                 <input type="text" className="form-control" id="adTitle" aria-describedby="titleHelp" required/>
