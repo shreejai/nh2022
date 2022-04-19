@@ -59,7 +59,7 @@ const Navbar = () => {
                     </li>
 
                     <li className="nav-item">
-                        <Link href="/list-your-property">
+                        <Link href="/testlist2">
                             <a className="orange-btn nav-link" style={{margin:"0px 10px"}}>List your property</a>
                         </Link>
                     </li>
