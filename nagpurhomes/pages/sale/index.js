@@ -59,7 +59,7 @@ const index = ({data}) => {
                                         </Link>
                                         <p style={{color:"#5F747F"}}> <FaMapMarkerAlt style={{color:"#ec6f5c"}} /> {curElem.location}</p>
                                         <p style={{marginBottom:"0px", color:"#5F747F"}}>
-                                            <BiBed />: <strong>{curElem.beds}</strong> &nbsp; &nbsp; <BiBath />: <strong> {curElem.bath} </strong> &nbsp; &nbsp; <BiArea />: <strong> {curElem.areatext} </strong>
+                                            <BiBed />: <strong>{curElem.beds}</strong> &nbsp; &nbsp; <BiBath />: <strong> {curElem.bath} </strong> &nbsp; &nbsp; <BiArea />: <strong> {(curElem.areatext)? curElem.areatext : 'Not available'} </strong>
                                         </p>
                                     </div>
                                     {
