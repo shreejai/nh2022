@@ -6,6 +6,7 @@ import Pagination from '../../components/Pagination';
 import { useState } from 'react';
 import Link from 'next/link';
 import Footer from '../../components/Footer';
+import Card from '../../components/Card';
 
 export const getStaticProps = async () => {
     const res = await fetch("https://nagpurhomes.com/api4414");
@@ -44,6 +45,13 @@ const index = ({data}) => {
                         data.slice(pagination.start,pagination.end).map((curElem)=>{
                             return (
                                 <div className="col-md-4" key={curElem.id}>
+                                <Card 
+                                    propertyId={curElem.id} 
+                                    title={curElem.title} 
+                                    imageFolder={curElem.imagefolder} 
+                                    userType={curElem.usertype}
+                                    propertyLocation = {curElem.location}
+                                />
                                 <div className="card" style={{marginBottom:"50px"}}>
                                     <div style={{height:"200px", background:"#d2d2d2", position:"relative"}}>
                                     {/*<p>{curElem?.imagefolder == 'images/nophotos.jpg'? 'https://nagpurhomes.com/images/nopics1small.jpg' : 'https://nagpurhomes.com/'+curElem.imagefolder+'small/s.jpg'}</p>*/}
